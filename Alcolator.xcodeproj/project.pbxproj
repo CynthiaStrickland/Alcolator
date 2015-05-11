@@ -14,6 +14,7 @@
 		3DA83D0F1B01518E00C181DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA83D0E1B01518E00C181DE /* Images.xcassets */; };
 		3DA83D121B01518E00C181DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA83D101B01518E00C181DE /* LaunchScreen.xib */; };
 		3DA83D1E1B01518E00C181DE /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D1D1B01518E00C181DE /* AlcolatorTests.m */; };
+		3DA83D291B015BB100C181DE /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D281B015BB100C181DE /* WhiskeyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3DA83D171B01518E00C181DE /* AlcolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA83D1C1B01518E00C181DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DA83D1D1B01518E00C181DE /* AlcolatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcolatorTests.m; sourceTree = "<group>"; };
+		3DA83D271B015BB100C181DE /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		3DA83D281B015BB100C181DE /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				3DA83D061B01518E00C181DE /* AppDelegate.m */,
 				3DA83D081B01518E00C181DE /* ViewController.h */,
 				3DA83D091B01518E00C181DE /* ViewController.m */,
+				3DA83D271B015BB100C181DE /* WhiskeyViewController.h */,
+				3DA83D281B015BB100C181DE /* WhiskeyViewController.m */,
 				3DA83D0B1B01518E00C181DE /* Main.storyboard */,
 				3DA83D0E1B01518E00C181DE /* Images.xcassets */,
 				3DA83D101B01518E00C181DE /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DA83D0A1B01518E00C181DE /* ViewController.m in Sources */,
+				3DA83D291B015BB100C181DE /* WhiskeyViewController.m in Sources */,
 				3DA83D071B01518E00C181DE /* AppDelegate.m in Sources */,
 				3DA83D041B01518E00C181DE /* main.m in Sources */,
 			);
