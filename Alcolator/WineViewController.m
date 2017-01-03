@@ -31,6 +31,7 @@
     if (enteredNumber == 0) {
         //The user typed 0, or something that's not a number, so clear the field
     sender.text = nil;
+        [self.view endEditing:YES];
     }
     
 }
