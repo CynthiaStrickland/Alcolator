@@ -6,14 +6,14 @@
 //  Copyright (c) 2015 Cynthia Whitlatch. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WineViewController.h"
 
-@interface ViewController ()
+@interface WineViewController ()
 
 
 @end
 
-@implementation ViewController
+@implementation WineViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

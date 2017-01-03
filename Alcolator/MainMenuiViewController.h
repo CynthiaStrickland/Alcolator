@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Cynthia Whitlatch. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WineViewController.h"
 
-@interface MainMenuiViewController : ViewController
+@interface MainMenuiViewController : WineViewController
 
 @end
