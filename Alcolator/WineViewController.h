@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WineViewController.h
 //  Alcolator
 //
 //  Created by Cynthia Whitlatch on 5/11/15.
@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *beerPercentTextField;
 @property (weak, nonatomic) IBOutlet UISlider *beerCountSlider;
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+@property (weak, nonatomic) IBOutlet UILabel *totalBeers;
 
 - (void)buttonPressed:(UIButton *)sender;
 

@@ -36,6 +36,10 @@
 }
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f", sender.value);
+    
+    NSString *numberOfBeers = [NSString stringWithFormat:NSLocalizedString(@"%f", nil), sender.value];
+    self.totalBeers.text = numberOfBeers;
+    
           [self.beerPercentTextField resignFirstResponder];
           
 }
