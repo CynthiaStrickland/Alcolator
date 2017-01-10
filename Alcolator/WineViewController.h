@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+
 
 @interface WineViewController : UIViewController
 
@@ -16,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *totalBeers;
 @property (weak, nonatomic) IBOutlet UIButton *infoButton;
 @property (weak, nonatomic) IBOutlet UILabel *infoLabel;
+@property (weak, nonatomic) IBOutlet UIButton *calculate;
 
 @end
 

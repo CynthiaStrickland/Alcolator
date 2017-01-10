@@ -16,10 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.infoButton.layer setBorderWidth:1.0];
+    [self.infoButton.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.infoButton.layer setCornerRadius:10.0];
+    
+    [self.calculate.layer setBorderWidth:1.0];
+    [self.calculate.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.calculate.layer setCornerRadius:10.0];
+    
 }
 
 - (IBAction)infoButtonPressed:(id)sender {
-    
+
 }
 
 - (IBAction)textFieldDidChange:(UITextField *)sender {

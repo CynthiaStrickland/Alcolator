@@ -16,6 +16,7 @@
 		3DA83D291B015BB100C181DE /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D281B015BB100C181DE /* WhiskeyViewController.m */; };
 		3DA83D2C1B016B4800C181DE /* MainMenuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */; };
 		8168BE4A1E25925800E5B0BF /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8168BE491E25925800E5B0BF /* InfoViewController.m */; };
+		8168BE4E1E25A10E00E5B0BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168BE4D1E25A10E00E5B0BF /* QuartzCore.framework */; };
 		8170A0FD1E1C6D5C00876F3C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8170A0FC1E1C6D5C00876F3C /* Media.xcassets */; };
 		8170A0FF1E1C6EB900876F3C /* dry lake bed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuiViewController.m; sourceTree = "<group>"; };
 		8168BE481E25925800E5B0BF /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		8168BE491E25925800E5B0BF /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		8168BE4D1E25A10E00E5B0BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8170A0FC1E1C6D5C00876F3C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
 		8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dry lake bed.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8168BE4E1E25A10E00E5B0BF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +77,11 @@
 		3DA83CF51B01518D00C181DE = {
 			isa = PBXGroup;
 			children = (
-				3DA83D001B01518D00C181DE /* Alcolator */,
+				8168BE4B1E25A08E00E5B0BF /* Modal */,
+				3DA83D001B01518D00C181DE /*  View Controllers */,
 				3DA83D1A1B01518E00C181DE /* AlcolatorTests */,
 				3DA83CFF1B01518D00C181DE /* Products */,
+				8168BE4C1E25A10E00E5B0BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +94,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DA83D001B01518D00C181DE /* Alcolator */ = {
+		3DA83D001B01518D00C181DE /*  View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				3DA83D051B01518E00C181DE /* AppDelegate.h */,
@@ -102,18 +107,17 @@
 				8168BE491E25925800E5B0BF /* InfoViewController.m */,
 				3DA83D2A1B016B4800C181DE /* MainMenuiViewController.h */,
 				3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */,
-				3DA83D0B1B01518E00C181DE /* Main.storyboard */,
-				3DA83D101B01518E00C181DE /* LaunchScreen.xib */,
-				8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */,
-				8170A0FC1E1C6D5C00876F3C /* Media.xcassets */,
 				3DA83D011B01518E00C181DE /* Supporting Files */,
 			);
+			name = " View Controllers";
 			path = Alcolator;
 			sourceTree = "<group>";
 		};
 		3DA83D011B01518E00C181DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */,
+				8170A0FC1E1C6D5C00876F3C /* Media.xcassets */,
 				3DA83D021B01518E00C181DE /* Info.plist */,
 				3DA83D031B01518E00C181DE /* main.m */,
 			);
@@ -135,6 +139,23 @@
 				3DA83D1C1B01518E00C181DE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8168BE4B1E25A08E00E5B0BF /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				3DA83D101B01518E00C181DE /* LaunchScreen.xib */,
+				3DA83D0B1B01518E00C181DE /* Main.storyboard */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		8168BE4C1E25A10E00E5B0BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8168BE4D1E25A10E00E5B0BF /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +294,7 @@
 				3DA83D0C1B01518E00C181DE /* Base */,
 			);
 			name = Main.storyboard;
+			path = Alcolator;
 			sourceTree = "<group>";
 		};
 		3DA83D101B01518E00C181DE /* LaunchScreen.xib */ = {
@@ -281,6 +303,7 @@
 				3DA83D111B01518E00C181DE /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = Alcolator;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
