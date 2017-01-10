@@ -12,7 +12,7 @@
 
 @end
 
-@implementation WhiskeyViewController
+@implementation WhiskeyViewController : WineViewController
 
 - (void)buttonPressed:(UIButton *)sender;
     {
@@ -50,10 +50,13 @@
         self.resultLabel.text = resultText;
     
         [self.view endEditing:YES];
+        [self.beerPercentTextField endEditing:YES];
     }
 
 - (IBAction)tapGestureDidFire:(UITapGestureRecognizer *)sender {
-    [self.beerCountSlider resignFirstResponder];
-}
+        [self.beerCountSlider resignFirstResponder];
+    }
+
+
 
 @end

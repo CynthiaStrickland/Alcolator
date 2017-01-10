@@ -10,5 +10,4 @@
 
 @interface WhiskeyViewController : WineViewController
 
-
 @end

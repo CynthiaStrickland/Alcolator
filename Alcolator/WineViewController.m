@@ -1,5 +1,5 @@
 //
-//  ViewController.m
+//  WineViewController.m
 //  Alcolator
 //
 //  Created by Cynthia Whitlatch on 5/11/15.
@@ -8,7 +8,7 @@
 
 #import "WineViewController.h"
 
-@interface WineViewController ()
+@interface WineViewController()
 
 @end
 
@@ -16,8 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-}- (IBAction)infoButtonPressed:(id)sender {
+}
+
+- (IBAction)infoButtonPressed:(id)sender {
     
 }
 
@@ -28,21 +29,23 @@
         //The user typed 0, or something that's not a number, so clear the field
     sender.text = nil;
         [self.view endEditing:YES];
+        
     }
-    
 }
+    
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f", sender.value);
     
     NSString *numberOfBeers = [NSString stringWithFormat:NSLocalizedString(@"%0.1f", nil), sender.value];
     self.totalBeers.text = numberOfBeers;
     
-          [self.beerPercentTextField resignFirstResponder];
+    [self.beerPercentTextField resignFirstResponder];
           
 }
 
 - (IBAction)buttonPressed:(id)sender {
     [self.beerPercentTextField resignFirstResponder];
+
     
     // first, calculate how much alcohol is in all those beers...
     
@@ -83,11 +86,17 @@
     
     NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ contains as much alcohol as %.1f %@ of wine.", nil), numberOfBeers, beerText, numberOfWineGlassesForEquivalentAlcoholAmount, wineText];
     self.resultLabel.text = resultText;
+    
 }
 
 - (IBAction)tapGestureDidFire:(UITapGestureRecognizer *)sender {
     [self.beerCountSlider resignFirstResponder];
 }
+
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [[self view] endEditing:YES];
+}
+
 
 
 
