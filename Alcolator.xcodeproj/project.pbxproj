@@ -77,8 +77,9 @@
 		3DA83CF51B01518D00C181DE = {
 			isa = PBXGroup;
 			children = (
-				8168BE4B1E25A08E00E5B0BF /* Modal */,
 				3DA83D001B01518D00C181DE /*  View Controllers */,
+				8168BE4B1E25A08E00E5B0BF /* Modal */,
+				3DA83D011B01518E00C181DE /* Supporting Files */,
 				3DA83D1A1B01518E00C181DE /* AlcolatorTests */,
 				3DA83CFF1B01518D00C181DE /* Products */,
 				8168BE4C1E25A10E00E5B0BF /* Frameworks */,
@@ -107,7 +108,6 @@
 				8168BE491E25925800E5B0BF /* InfoViewController.m */,
 				3DA83D2A1B016B4800C181DE /* MainMenuiViewController.h */,
 				3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */,
-				3DA83D011B01518E00C181DE /* Supporting Files */,
 			);
 			name = " View Controllers";
 			path = Alcolator;
@@ -122,6 +122,7 @@
 				3DA83D031B01518E00C181DE /* main.m */,
 			);
 			name = "Supporting Files";
+			path = Alcolator;
 			sourceTree = "<group>";
 		};
 		3DA83D1A1B01518E00C181DE /* AlcolatorTests */ = {
@@ -144,8 +145,8 @@
 		8168BE4B1E25A08E00E5B0BF /* Modal */ = {
 			isa = PBXGroup;
 			children = (
-				3DA83D101B01518E00C181DE /* LaunchScreen.xib */,
 				3DA83D0B1B01518E00C181DE /* Main.storyboard */,
+				3DA83D101B01518E00C181DE /* LaunchScreen.xib */,
 			);
 			name = Modal;
 			sourceTree = "<group>";
