@@ -15,6 +15,7 @@
 		3DA83D1E1B01518E00C181DE /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D1D1B01518E00C181DE /* AlcolatorTests.m */; };
 		3DA83D291B015BB100C181DE /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D281B015BB100C181DE /* WhiskeyViewController.m */; };
 		3DA83D2C1B016B4800C181DE /* MainMenuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */; };
+		8168BE4A1E25925800E5B0BF /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8168BE491E25925800E5B0BF /* InfoViewController.m */; };
 		8170A0FD1E1C6D5C00876F3C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8170A0FC1E1C6D5C00876F3C /* Media.xcassets */; };
 		8170A0FF1E1C6EB900876F3C /* dry lake bed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,8 @@
 		3DA83D281B015BB100C181DE /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 		3DA83D2A1B016B4800C181DE /* MainMenuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuiViewController.h; sourceTree = "<group>"; };
 		3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuiViewController.m; sourceTree = "<group>"; };
+		8168BE481E25925800E5B0BF /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		8168BE491E25925800E5B0BF /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		8170A0FC1E1C6D5C00876F3C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
 		8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dry lake bed.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +98,8 @@
 				3DA83D091B01518E00C181DE /* WineViewController.m */,
 				3DA83D271B015BB100C181DE /* WhiskeyViewController.h */,
 				3DA83D281B015BB100C181DE /* WhiskeyViewController.m */,
+				8168BE481E25925800E5B0BF /* InfoViewController.h */,
+				8168BE491E25925800E5B0BF /* InfoViewController.m */,
 				3DA83D2A1B016B4800C181DE /* MainMenuiViewController.h */,
 				3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */,
 				3DA83D0B1B01518E00C181DE /* Main.storyboard */,
@@ -236,6 +241,7 @@
 			files = (
 				3DA83D0A1B01518E00C181DE /* WineViewController.m in Sources */,
 				3DA83D291B015BB100C181DE /* WhiskeyViewController.m in Sources */,
+				8168BE4A1E25925800E5B0BF /* InfoViewController.m in Sources */,
 				3DA83D2C1B016B4800C181DE /* MainMenuiViewController.m in Sources */,
 				3DA83D071B01518E00C181DE /* AppDelegate.m in Sources */,
 				3DA83D041B01518E00C181DE /* main.m in Sources */,

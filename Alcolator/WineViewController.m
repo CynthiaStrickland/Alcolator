@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+}- (IBAction)infoButtonPressed:(id)sender {
+    
 }
 
 - (IBAction)textFieldDidChange:(UITextField *)sender {
@@ -38,6 +40,7 @@
           [self.beerPercentTextField resignFirstResponder];
           
 }
+
 - (IBAction)buttonPressed:(id)sender {
     [self.beerPercentTextField resignFirstResponder];
     
