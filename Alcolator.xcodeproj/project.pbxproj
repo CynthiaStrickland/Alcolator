@@ -11,11 +11,12 @@
 		3DA83D071B01518E00C181DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D061B01518E00C181DE /* AppDelegate.m */; };
 		3DA83D0A1B01518E00C181DE /* WineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D091B01518E00C181DE /* WineViewController.m */; };
 		3DA83D0D1B01518E00C181DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA83D0B1B01518E00C181DE /* Main.storyboard */; };
-		3DA83D0F1B01518E00C181DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA83D0E1B01518E00C181DE /* Images.xcassets */; };
 		3DA83D121B01518E00C181DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA83D101B01518E00C181DE /* LaunchScreen.xib */; };
 		3DA83D1E1B01518E00C181DE /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D1D1B01518E00C181DE /* AlcolatorTests.m */; };
 		3DA83D291B015BB100C181DE /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D281B015BB100C181DE /* WhiskeyViewController.m */; };
 		3DA83D2C1B016B4800C181DE /* MainMenuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */; };
+		8170A0FD1E1C6D5C00876F3C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8170A0FC1E1C6D5C00876F3C /* Media.xcassets */; };
+		8170A0FF1E1C6EB900876F3C /* dry lake bed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 		3DA83D081B01518E00C181DE /* WineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WineViewController.h; sourceTree = "<group>"; };
 		3DA83D091B01518E00C181DE /* WineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WineViewController.m; sourceTree = "<group>"; };
 		3DA83D0C1B01518E00C181DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3DA83D0E1B01518E00C181DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3DA83D111B01518E00C181DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3DA83D171B01518E00C181DE /* AlcolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA83D1C1B01518E00C181DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +46,8 @@
 		3DA83D281B015BB100C181DE /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 		3DA83D2A1B016B4800C181DE /* MainMenuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuiViewController.h; sourceTree = "<group>"; };
 		3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuiViewController.m; sourceTree = "<group>"; };
+		8170A0FC1E1C6D5C00876F3C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dry lake bed.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +98,9 @@
 				3DA83D2A1B016B4800C181DE /* MainMenuiViewController.h */,
 				3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */,
 				3DA83D0B1B01518E00C181DE /* Main.storyboard */,
-				3DA83D0E1B01518E00C181DE /* Images.xcassets */,
 				3DA83D101B01518E00C181DE /* LaunchScreen.xib */,
+				8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */,
+				8170A0FC1E1C6D5C00876F3C /* Media.xcassets */,
 				3DA83D011B01518E00C181DE /* Supporting Files */,
 			);
 			path = Alcolator;
@@ -211,8 +214,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DA83D0D1B01518E00C181DE /* Main.storyboard in Resources */,
+				8170A0FD1E1C6D5C00876F3C /* Media.xcassets in Resources */,
+				8170A0FF1E1C6EB900876F3C /* dry lake bed.jpg in Resources */,
 				3DA83D121B01518E00C181DE /* LaunchScreen.xib in Resources */,
-				3DA83D0F1B01518E00C181DE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

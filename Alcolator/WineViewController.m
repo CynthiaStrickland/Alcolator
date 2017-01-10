@@ -10,19 +10,13 @@
 
 @interface WineViewController ()
 
-
 @end
 
 @implementation WineViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 - (IBAction)textFieldDidChange:(UITextField *)sender {
@@ -38,7 +32,7 @@
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f", sender.value);
     
-    NSString *numberOfBeers = [NSString stringWithFormat:NSLocalizedString(@"%f", nil), sender.value];
+    NSString *numberOfBeers = [NSString stringWithFormat:NSLocalizedString(@"%0.1f", nil), sender.value];
     self.totalBeers.text = numberOfBeers;
     
           [self.beerPercentTextField resignFirstResponder];
