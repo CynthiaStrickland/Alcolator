@@ -348,7 +348,7 @@
             </objects>
             <point key="canvasLocation" x="1288.8" y="217.24137931034485"/>
         </scene>
-        <!--Alcolator-->
+        <!--Calcahol-->
         <scene sceneID="Ter-Dz-VCP">
             <objects>
                 <viewController id="Sze-iW-VlZ" customClass="MainMenuViewController" sceneMemberID="viewController">
@@ -417,7 +417,7 @@
                             <constraint firstItem="XXI-EQ-LBY" firstAttribute="centerX" secondItem="BPR-U9-8yj" secondAttribute="centerX" id="tiq-bF-tsi"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Alcolator" id="QKv-1C-hsk"/>
+                    <navigationItem key="navigationItem" title="Calcahol" id="QKv-1C-hsk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o1t-m1-7ef" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
