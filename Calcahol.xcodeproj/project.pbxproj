@@ -14,11 +14,11 @@
 		3DA83D121B01518E00C181DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA83D101B01518E00C181DE /* LaunchScreen.xib */; };
 		3DA83D1E1B01518E00C181DE /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D1D1B01518E00C181DE /* AlcolatorTests.m */; };
 		3DA83D291B015BB100C181DE /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D281B015BB100C181DE /* WhiskeyViewController.m */; };
-		3DA83D2C1B016B4800C181DE /* MainMenuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */; };
 		8168BE4A1E25925800E5B0BF /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8168BE491E25925800E5B0BF /* InfoViewController.m */; };
 		8168BE4E1E25A10E00E5B0BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168BE4D1E25A10E00E5B0BF /* QuartzCore.framework */; };
 		8170A0FD1E1C6D5C00876F3C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8170A0FC1E1C6D5C00876F3C /* Media.xcassets */; };
 		8170A0FF1E1C6EB900876F3C /* dry lake bed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */; };
+		8184252B1E2854F600536D65 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 8184252A1E2854F600536D65 /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DA83CFE1B01518D00C181DE /* Alcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA83CFE1B01518D00C181DE /* calcahol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calcahol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA83D021B01518E00C181DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DA83D031B01518E00C181DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DA83D051B01518E00C181DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,18 +41,17 @@
 		3DA83D091B01518E00C181DE /* WineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WineViewController.m; sourceTree = "<group>"; };
 		3DA83D0C1B01518E00C181DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DA83D111B01518E00C181DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3DA83D171B01518E00C181DE /* AlcolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA83D171B01518E00C181DE /* CalcaholTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcaholTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA83D1C1B01518E00C181DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DA83D1D1B01518E00C181DE /* AlcolatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcolatorTests.m; sourceTree = "<group>"; };
 		3DA83D271B015BB100C181DE /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
 		3DA83D281B015BB100C181DE /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
-		3DA83D2A1B016B4800C181DE /* MainMenuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuiViewController.h; sourceTree = "<group>"; };
-		3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuiViewController.m; sourceTree = "<group>"; };
 		8168BE481E25925800E5B0BF /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		8168BE491E25925800E5B0BF /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		8168BE4D1E25A10E00E5B0BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8170A0FC1E1C6D5C00876F3C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
 		8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dry lake bed.jpg"; sourceTree = "<group>"; };
+		8184252A1E2854F600536D65 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +88,8 @@
 		3DA83CFF1B01518D00C181DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DA83CFE1B01518D00C181DE /* Alcolator.app */,
-				3DA83D171B01518E00C181DE /* AlcolatorTests.xctest */,
+				3DA83CFE1B01518D00C181DE /* calcahol.app */,
+				3DA83D171B01518E00C181DE /* CalcaholTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,8 +105,6 @@
 				3DA83D281B015BB100C181DE /* WhiskeyViewController.m */,
 				8168BE481E25925800E5B0BF /* InfoViewController.h */,
 				8168BE491E25925800E5B0BF /* InfoViewController.m */,
-				3DA83D2A1B016B4800C181DE /* MainMenuiViewController.h */,
-				3DA83D2B1B016B4800C181DE /* MainMenuiViewController.m */,
 			);
 			name = " View Controllers";
 			path = Alcolator;
@@ -118,6 +115,7 @@
 			children = (
 				8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */,
 				8170A0FC1E1C6D5C00876F3C /* Media.xcassets */,
+				8184252A1E2854F600536D65 /* AppIcon.appiconset */,
 				3DA83D021B01518E00C181DE /* Info.plist */,
 				3DA83D031B01518E00C181DE /* main.m */,
 			);
@@ -162,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3DA83CFD1B01518D00C181DE /* Alcolator */ = {
+		3DA83CFD1B01518D00C181DE /* Calcahol */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DA83D211B01518E00C181DE /* Build configuration list for PBXNativeTarget "Alcolator" */;
+			buildConfigurationList = 3DA83D211B01518E00C181DE /* Build configuration list for PBXNativeTarget "Calcahol" */;
 			buildPhases = (
 				3DA83CFA1B01518D00C181DE /* Sources */,
 				3DA83CFB1B01518D00C181DE /* Frameworks */,
@@ -174,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = Alcolator;
+			name = Calcahol;
 			productName = Alcolator;
-			productReference = 3DA83CFE1B01518D00C181DE /* Alcolator.app */;
+			productReference = 3DA83CFE1B01518D00C181DE /* calcahol.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3DA83D161B01518E00C181DE /* AlcolatorTests */ = {
+		3DA83D161B01518E00C181DE /* CalcaholTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DA83D241B01518E00C181DE /* Build configuration list for PBXNativeTarget "AlcolatorTests" */;
+			buildConfigurationList = 3DA83D241B01518E00C181DE /* Build configuration list for PBXNativeTarget "CalcaholTests" */;
 			buildPhases = (
 				3DA83D131B01518E00C181DE /* Sources */,
 				3DA83D141B01518E00C181DE /* Frameworks */,
@@ -192,9 +190,9 @@
 			dependencies = (
 				3DA83D191B01518E00C181DE /* PBXTargetDependency */,
 			);
-			name = AlcolatorTests;
+			name = CalcaholTests;
 			productName = AlcolatorTests;
-			productReference = 3DA83D171B01518E00C181DE /* AlcolatorTests.xctest */;
+			productReference = 3DA83D171B01518E00C181DE /* CalcaholTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3DA83CF91B01518D00C181DE /* Build configuration list for PBXProject "Alcolator" */;
+			buildConfigurationList = 3DA83CF91B01518D00C181DE /* Build configuration list for PBXProject "Calcahol" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,8 +227,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DA83CFD1B01518D00C181DE /* Alcolator */,
-				3DA83D161B01518E00C181DE /* AlcolatorTests */,
+				3DA83CFD1B01518D00C181DE /* Calcahol */,
+				3DA83D161B01518E00C181DE /* CalcaholTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +241,7 @@
 				3DA83D0D1B01518E00C181DE /* Main.storyboard in Resources */,
 				8170A0FD1E1C6D5C00876F3C /* Media.xcassets in Resources */,
 				8170A0FF1E1C6EB900876F3C /* dry lake bed.jpg in Resources */,
+				8184252B1E2854F600536D65 /* AppIcon.appiconset in Resources */,
 				3DA83D121B01518E00C181DE /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +263,6 @@
 				3DA83D0A1B01518E00C181DE /* WineViewController.m in Sources */,
 				3DA83D291B015BB100C181DE /* WhiskeyViewController.m in Sources */,
 				8168BE4A1E25925800E5B0BF /* InfoViewController.m in Sources */,
-				3DA83D2C1B016B4800C181DE /* MainMenuiViewController.m in Sources */,
 				3DA83D071B01518E00C181DE /* AppDelegate.m in Sources */,
 				3DA83D041B01518E00C181DE /* main.m in Sources */,
 			);
@@ -283,7 +281,7 @@
 /* Begin PBXTargetDependency section */
 		3DA83D191B01518E00C181DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DA83CFD1B01518D00C181DE /* Alcolator */;
+			target = 3DA83CFD1B01518D00C181DE /* Calcahol */;
 			targetProxy = 3DA83D181B01518E00C181DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,7 +399,7 @@
 				INFOPLIST_FILE = Alcolator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = calcahol;
 			};
 			name = Debug;
 		};
@@ -413,7 +411,7 @@
 				INFOPLIST_FILE = Alcolator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = calcahol;
 			};
 			name = Release;
 		};
@@ -433,7 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcolator.app/Alcolator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calcahol.app/Calcahol";
 			};
 			name = Debug;
 		};
@@ -449,14 +447,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcolator.app/Alcolator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calcahol.app/Calcahol";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DA83CF91B01518D00C181DE /* Build configuration list for PBXProject "Alcolator" */ = {
+		3DA83CF91B01518D00C181DE /* Build configuration list for PBXProject "Calcahol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DA83D1F1B01518E00C181DE /* Debug */,
@@ -465,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DA83D211B01518E00C181DE /* Build configuration list for PBXNativeTarget "Alcolator" */ = {
+		3DA83D211B01518E00C181DE /* Build configuration list for PBXNativeTarget "Calcahol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DA83D221B01518E00C181DE /* Debug */,
@@ -474,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DA83D241B01518E00C181DE /* Build configuration list for PBXNativeTarget "AlcolatorTests" */ = {
+		3DA83D241B01518E00C181DE /* Build configuration list for PBXNativeTarget "CalcaholTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DA83D251B01518E00C181DE /* Debug */,
