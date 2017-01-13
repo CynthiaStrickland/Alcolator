@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3DA83CFD1B01518D00C181DE"
-               BuildableName = "Calcahol.app"
+               BuildableName = "calcahol.app"
                BlueprintName = "Calcahol"
                ReferencedContainer = "container:Calcahol.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3DA83CFD1B01518D00C181DE"
-            BuildableName = "Calcahol.app"
+            BuildableName = "calcahol.app"
             BlueprintName = "Calcahol"
             ReferencedContainer = "container:Calcahol.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3DA83CFD1B01518D00C181DE"
-            BuildableName = "Calcahol.app"
+            BuildableName = "calcahol.app"
             BlueprintName = "Calcahol"
             ReferencedContainer = "container:Calcahol.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3DA83CFD1B01518D00C181DE"
-            BuildableName = "Calcahol.app"
+            BuildableName = "calcahol.app"
             BlueprintName = "Calcahol"
             ReferencedContainer = "container:Calcahol.xcodeproj">
          </BuildableReference>
