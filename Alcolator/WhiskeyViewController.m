@@ -19,6 +19,8 @@
         [self.beerPercentTextField resignFirstResponder];
     
         int numberOfBeers = self.beerCountSlider.value;
+
+        
         int ouncesInOneBeerGlass = 12;  //assume they are 12oz beer bottles
     
         float alcoholPercentageOfBeer = [self.beerPercentTextField.text floatValue] / 100;
@@ -48,7 +50,7 @@
                 }
         NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ (with %.2f%% alcohol) contains as much alcohol as %.1f %@ of whiskey.", nil), numberOfBeers, beerText, [self.beerPercentTextField.text floatValue], numberOfWhiskeyGlassesForEquivalentAlcoholAmount, whiskeyText];
         self.resultLabel.text = resultText;
-    
+        
         [self.view endEditing:YES];
         [self.beerPercentTextField endEditing:YES];
     }
@@ -56,6 +58,7 @@
 - (IBAction)tapGestureDidFire:(UITapGestureRecognizer *)sender {
         [self.beerCountSlider resignFirstResponder];
     }
+
 
 
 
