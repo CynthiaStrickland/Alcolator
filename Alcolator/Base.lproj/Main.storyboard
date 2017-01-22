@@ -56,8 +56,8 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter % of Alcohol Content of Beer" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NFi-Ir-iph">
-                                <rect key="frame" x="37" y="297" width="343" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter % of Alcohol Content of Beer" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NFi-Ir-iph">
+                                <rect key="frame" x="84.666666666666686" y="297" width="244.66666666666663" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
@@ -233,8 +233,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dry lake bed.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dsL-5a-8Ft">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Slide to add number of beers" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVm-gw-VeY">
-                                <rect key="frame" x="36" y="352" width="343" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slide to add number of beers" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVm-gw-VeY">
+                                <rect key="frame" x="38.666666666666657" y="352" width="343" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Zt7-dI-6hA"/>
                                     <constraint firstAttribute="width" constant="343" id="iJu-fF-1P7"/>
@@ -243,8 +243,8 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="eP0-CZ-EjH">
-                                <rect key="frame" x="52" y="413" width="240" height="25"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="eP0-CZ-EjH">
+                                <rect key="frame" x="55" y="413" width="240" height="25"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="236" id="1TF-xl-KPb"/>
@@ -254,8 +254,8 @@
                                     <action selector="sliderValueDidChange:" destination="6Ua-aa-smo" eventType="valueChanged" id="ck4-nc-X0F"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezg-lQ-COL" userLabel="Total Beers">
-                                <rect key="frame" x="306" y="389" width="84" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezg-lQ-COL" userLabel="Total Beers">
+                                <rect key="frame" x="309" y="389" width="84" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="84" id="9pa-iG-DDg"/>
                                     <constraint firstAttribute="height" constant="72" id="BWl-Xb-EpC"/>
@@ -264,8 +264,8 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter % of Alcohol Content of Beer" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bsv-2b-Maz" userLabel="Beer Percent Text Field">
-                                <rect key="frame" x="37" y="297" width="343" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter % of Alcohol Content of Beer" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bsv-2b-Maz" userLabel="Beer Percent Text Field">
+                                <rect key="frame" x="87.666666666666686" y="297" width="244.66666666666663" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
@@ -288,7 +288,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFL-xl-rfK" userLabel="Result Label">
-                                <rect key="frame" x="42.333333333333343" y="534" width="340" height="90"/>
+                                <rect key="frame" x="42.666666666666657" y="534" width="340" height="90"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="340" id="hpL-5M-YGi"/>
@@ -308,8 +308,8 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ON-QT-Zjf">
-                                <rect key="frame" x="130" y="445" width="154" height="53"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ON-QT-Zjf">
+                                <rect key="frame" x="133" y="445" width="154" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="GGl-c6-XRl"/>
                                     <constraint firstAttribute="width" constant="154" id="ZWx-ZA-Qf9"/>
