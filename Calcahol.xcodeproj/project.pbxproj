@@ -19,6 +19,8 @@
 		8170A0FD1E1C6D5C00876F3C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8170A0FC1E1C6D5C00876F3C /* Media.xcassets */; };
 		8170A0FF1E1C6EB900876F3C /* dry lake bed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */; };
 		8184252B1E2854F600536D65 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 8184252A1E2854F600536D65 /* AppIcon.appiconset */; };
+		9B91B3659D2086ECCF5FAF2C /* libPods-CalcaholTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F93F331C2F92A2B5367A37 /* libPods-CalcaholTests.a */; };
+		D9D7A764CCEB73FD7B0C6D11 /* libPods-Calcahol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0499C82FA321D094C9A46C8 /* libPods-Calcahol.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BD1AACCEE931659466B41AA /* Pods-CalcaholTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalcaholTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalcaholTests/Pods-CalcaholTests.release.xcconfig"; sourceTree = "<group>"; };
+		10D471B41331B86A7DF963D0 /* Pods-CalcaholTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalcaholTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalcaholTests/Pods-CalcaholTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38F93F331C2F92A2B5367A37 /* libPods-CalcaholTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalcaholTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA83CFE1B01518D00C181DE /* calcahol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calcahol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA83D021B01518E00C181DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DA83D031B01518E00C181DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +57,9 @@
 		8170A0FC1E1C6D5C00876F3C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
 		8170A0FE1E1C6EB900876F3C /* dry lake bed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dry lake bed.jpg"; sourceTree = "<group>"; };
 		8184252A1E2854F600536D65 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		A0499C82FA321D094C9A46C8 /* libPods-Calcahol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Calcahol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F120B7F67D5A0A5E0D2D0268 /* Pods-Calcahol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calcahol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calcahol/Pods-Calcahol.debug.xcconfig"; sourceTree = "<group>"; };
+		F83C78E07D2A5322AF0FD677 /* Pods-Calcahol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calcahol.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calcahol/Pods-Calcahol.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8168BE4E1E25A10E00E5B0BF /* QuartzCore.framework in Frameworks */,
+				D9D7A764CCEB73FD7B0C6D11 /* libPods-Calcahol.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +76,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B91B3659D2086ECCF5FAF2C /* libPods-CalcaholTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C743D6A4B7B0528CFF5C590 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F120B7F67D5A0A5E0D2D0268 /* Pods-Calcahol.debug.xcconfig */,
+				F83C78E07D2A5322AF0FD677 /* Pods-Calcahol.release.xcconfig */,
+				10D471B41331B86A7DF963D0 /* Pods-CalcaholTests.debug.xcconfig */,
+				0BD1AACCEE931659466B41AA /* Pods-CalcaholTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3DA83CF51B01518D00C181DE = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +103,7 @@
 				3DA83D1A1B01518E00C181DE /* AlcolatorTests */,
 				3DA83CFF1B01518D00C181DE /* Products */,
 				8168BE4C1E25A10E00E5B0BF /* Frameworks */,
+				3C743D6A4B7B0528CFF5C590 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				8168BE4D1E25A10E00E5B0BF /* QuartzCore.framework */,
+				A0499C82FA321D094C9A46C8 /* libPods-Calcahol.a */,
+				38F93F331C2F92A2B5367A37 /* libPods-CalcaholTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,9 +188,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DA83D211B01518E00C181DE /* Build configuration list for PBXNativeTarget "Calcahol" */;
 			buildPhases = (
+				A83D5E26D1EDCB6A3F165CBA /* [CP] Check Pods Manifest.lock */,
 				3DA83CFA1B01518D00C181DE /* Sources */,
 				3DA83CFB1B01518D00C181DE /* Frameworks */,
 				3DA83CFC1B01518D00C181DE /* Resources */,
+				9C6927BA9A41CA742285641C /* [CP] Embed Pods Frameworks */,
+				CD0E6EBC9B86C45FD13B06CB /* [CP] Copy Pods Resources */,
+				81FF30051E3C3BBC00960557 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -181,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DA83D241B01518E00C181DE /* Build configuration list for PBXNativeTarget "CalcaholTests" */;
 			buildPhases = (
+				0F1B61B7EAEA9B4DCD8F943B /* [CP] Check Pods Manifest.lock */,
 				3DA83D131B01518E00C181DE /* Sources */,
 				3DA83D141B01518E00C181DE /* Frameworks */,
 				3DA83D151B01518E00C181DE /* Resources */,
+				D941CE91178A26DAF9774547 /* [CP] Embed Pods Frameworks */,
+				04615E8890003FD0E6018EFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +285,112 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04615E8890003FD0E6018EFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalcaholTests/Pods-CalcaholTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F1B61B7EAEA9B4DCD8F943B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81FF30051E3C3BBC00960557 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 1d837b18a5692e995e76548a45222fa5035c19d2 b670c174dc510313d5ebc291ed5addeea38340899223f2cdd2bf3cc714af0e57";
+		};
+		9C6927BA9A41CA742285641C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calcahol/Pods-Calcahol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A83D5E26D1EDCB6A3F165CBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD0E6EBC9B86C45FD13B06CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calcahol/Pods-Calcahol-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D941CE91178A26DAF9774547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalcaholTests/Pods-CalcaholTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DA83CFA1B01518D00C181DE /* Sources */ = {
@@ -393,6 +530,7 @@
 		};
 		3DA83D221B01518E00C181DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F120B7F67D5A0A5E0D2D0268 /* Pods-Calcahol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LK662Y5U4K;
@@ -407,6 +545,7 @@
 		};
 		3DA83D231B01518E00C181DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83C78E07D2A5322AF0FD677 /* Pods-Calcahol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LK662Y5U4K;
@@ -421,6 +560,7 @@
 		};
 		3DA83D251B01518E00C181DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D471B41331B86A7DF963D0 /* Pods-CalcaholTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -441,6 +581,7 @@
 		};
 		3DA83D261B01518E00C181DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD1AACCEE931659466B41AA /* Pods-CalcaholTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

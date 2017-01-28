@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Fabric/Fabric.h>
+#import <Answers/Answers.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
+        [Fabric with:@[[Answers class]]];
 
     return YES;
 
