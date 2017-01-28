@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Fabric/Fabric.h>
-#import <Answers/Answers.h>
+#import <Crashlytics/Crashlytics.h>
 
 @interface AppDelegate ()
 
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
-        [Fabric with:@[[Answers class]]];
+        [Fabric with:@[[Answers class],[Crashlytics class]]];
 
     return YES;
 
